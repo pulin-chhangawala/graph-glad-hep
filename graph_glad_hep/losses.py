@@ -12,7 +12,7 @@ from __future__ import annotations
 
 import torch
 import torch.nn.functional as F
-from torch_scatter import scatter
+from torch_geometric.utils import scatter
 
 
 def reconstruction_loss(
